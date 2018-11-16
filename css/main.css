@@ -27,8 +27,12 @@ header {
 
 .content-home {
   height: 100%;
+  width: 100%;
   margin-top: 0;
   background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .content-home h1 {
