@@ -1,0 +1,25 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display:flex; 
+}
+
+
+//Import de la police High Tower Text
+
+@font-face {
+    font-family:'HTOWERT';
+    src: url(../fonts/HTOWERT.TTF);
+}
+
+//CONTAINER DU SITE
+.container{
+
+}
+
+.content-home{
+    p{
+        font-family: 'HTOWERT'
+    }
+}
