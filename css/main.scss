@@ -2,8 +2,10 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
-
     padding: 0;
+    p{
+        font-family: 'HTOWERT';
+    }
 }
 
 
@@ -34,10 +36,7 @@ header{
     margin-top: 0;
     background-image: url(../img/background.png);
     
-    p{
-        font-family: 'HTOWERT';
-        margin-top: 0;
-    }
+    
 
     h1{
         font-family: 'Lora', serif;
@@ -49,5 +48,44 @@ header{
 
 //CONTENT ENTREPRISE
 .content-entreprise{
-    background-color: #191919
+    background-color: #191919;
+    color:white;
+
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+//CONTENT PROJET
+.content-projet{
+    background-color: #191919;
+    color:white;
+    
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+//CONTENT CONTACT
+
+.content-contact{
+    background-color: #191919;
+    color:white;
+
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+//FOOTER
+footer{
+    padding: 7px;
+    text-align: center;
+    background-color: #191919;
+    color: white;
 }

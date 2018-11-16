@@ -5,6 +5,10 @@ html, body {
   padding: 0;
 }
 
+html p, body p {
+  font-family: 'HTOWERT';
+}
+
 @font-face {
   font-family: 'HTOWERT';
   src: url(../fonts/HTOWERT.TTF);
@@ -27,11 +31,6 @@ header {
   background-image: url(../img/background.png);
 }
 
-.content-home p {
-  font-family: 'HTOWERT';
-  margin-top: 0;
-}
-
 .content-home h1 {
   font-family: 'Lora', serif;
   margin-top: 0;
@@ -40,5 +39,38 @@ header {
 
 .content-entreprise {
   background-color: #191919;
+  color: white;
+}
+
+.content-entreprise p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-projet {
+  background-color: #191919;
+  color: white;
+}
+
+.content-projet p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.content-contact {
+  background-color: #191919;
+  color: white;
+}
+
+.content-contact p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+footer {
+  padding: 7px;
+  text-align: center;
+  background-color: #191919;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
