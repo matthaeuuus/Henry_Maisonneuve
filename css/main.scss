@@ -34,15 +34,17 @@ header{
 .content-home{
     height: 100%;
     width: 100%;
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
     background-image:url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    align-items: center;
     
     h1{
         font-family: 'Lora', serif;
-        margin-top: 0;
+        margin-top:110px;
         color:black;
     }
 
@@ -82,6 +84,7 @@ header{
         margin-top: 0;
         margin-bottom: 0;
     }
+
 }
 
 //FOOTER
