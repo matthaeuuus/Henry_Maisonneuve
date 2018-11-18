@@ -14,15 +14,49 @@ html p, body p {
   src: url(../fonts/HTOWERT.TTF);
 }
 
+/* The sidebar menu */
+nav {
+  z-index: 1;
+  /* Stay on top */
+  background-color: #111;
+  /* Black */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #191919;
+}
+
+.container-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+.container-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 header {
   width: 100%;
   background-color: #191919;
   color: white;
   height: 40px;
-}
-
-.container {
-  width: 100%;
 }
 
 .content-home {
@@ -51,7 +85,6 @@ header {
 }
 
 .content-entreprise {
-  background-color: #191919;
   color: white;
 }
 
@@ -61,7 +94,6 @@ header {
 }
 
 .content-projet {
-  background-color: #191919;
   color: white;
 }
 
@@ -71,7 +103,6 @@ header {
 }
 
 .content-contact {
-  background-color: #191919;
   color: white;
 }
 
@@ -83,7 +114,6 @@ header {
 footer {
   padding: 7px;
   text-align: center;
-  background-color: #191919;
   color: white;
 }
 /*# sourceMappingURL=main.css.map */
