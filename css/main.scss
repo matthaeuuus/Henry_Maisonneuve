@@ -120,8 +120,72 @@ body {
         max-width: 100%;
     }
 }
-
+//PLAN + NOUS CREONS
+.plan-archi{
+    display: flex;
+}
 //IMAGE PLAN
+
+.image-plan{
+    width: 50%;
+    height: 100%;
+}
+//TEXTE CREATION
+.creation{
+    width: 50%;
+    height: 100%;
+    p{
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+//MACON + CONSTRUISONS
+
+.macon-construction{
+    display: flex;
+    //align-items:flex-end;
+}
+
+//TEXTE CONSTRUISONS
+.construisons{
+    width: 50%;
+    height: 100%;
+    p{
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+.macon-image{
+    width: 50%;
+    height: 100%;
+    
+}
+
+//IMAGE + VOS REVES
+.reves-image{
+    display:flex;
+}
+
+.reve{
+    width: 50%;
+    height: 100%;
+}
+
+.vos-reves{
+    width: 50%;
+    height: 100%;
+    p{
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+
 //CONTENT PROJET
 .content-projet {
     width: 100%;
@@ -147,7 +211,7 @@ body {
 .content-contact {
     width: 100%;
     height: 400px;
-    background-color: black;
+    background-color:#191919;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -156,13 +220,13 @@ body {
 .plan-texte {
     width: 100%;
     height: 400px;
-    background-color: black;
+    background-color:#191919;
 }
 
 .plan {
     width: 50%;
-    min-height: 300px;
-    background-color: black;
+    min-height:300px;
+    background-color:#191919;
     margin: 60px 20px 30px 0px;
 }
 
