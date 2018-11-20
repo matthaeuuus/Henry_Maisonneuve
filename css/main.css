@@ -24,7 +24,7 @@ html p, body p {
 
 .sidebar {
   height: 100px;
-  background-color: aqua;
+  background-color: black;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -38,7 +38,7 @@ html p, body p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 90%;
-  background-color: brown;
+  background-color: #191919;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -50,10 +50,21 @@ html p, body p {
   background-color: #191919;
   color: white;
   height: 40px;
+  font-size: 13px;
+}
+
+.header p {
+  margin-left: 5px;
+  margin-top: 0;
+}
+
+.header .neuves {
+  font-size: 22px;
+  margin-left: 5px;
 }
 
 .content-home {
-  min-height: 600px;
+  min-height: 680px;
   width: 100%;
   background-image: url(../img/background.png);
   background-repeat: no-repeat;
@@ -61,32 +72,55 @@ html p, body p {
   background-position: center;
 }
 
-.content-home h1 {
+.content-home h2 {
   font-family: 'Lora', serif;
+  text-align: center;
   margin-top: 110px;
   color: black;
   font-size: 3em;
+  font-weight: bold;
+}
+
+.content-home .neuves-home {
+  font-size: 3.5em;
+  text-align: center;
+  color: black;
+  font-family: 'Lora', serif;
+  font-weight: bold;
 }
 
 .content-entreprise {
   width: 100%;
-  height: 100px;
-  background-color: yellow;
+  min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .realisation-equipe {
   width: 50%;
   height: 100%;
-  background-color: blue;
+}
+
+.realisation-equipe p {
+  font-size: 2.5em;
+  margin-top: 150px;
+  margin-left: 80px;
 }
 
 .image-equipe {
   width: 50%;
   height: 100%;
-  background-color: brown;
+}
+
+.image-equipe img {
+  max-width: 100%;
 }
 
 .content-projet {
