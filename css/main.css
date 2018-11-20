@@ -1,119 +1,114 @@
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-html p, body p {
-  font-family: 'HTOWERT';
-}
-
-@font-face {
-  font-family: 'HTOWERT';
-  src: url(../fonts/HTOWERT.TTF);
-}
-
-/* The sidebar menu */
-nav {
-  z-index: 1;
-  /* Stay on top */
-  background-color: #111;
-  /* Black */
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
 .container {
+  border: 2px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #191919;
 }
 
 .container-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 0.8;
-      -ms-flex: 0.8;
-          flex: 0.8;
+  width: 10%;
+}
+
+.sidebar {
+  height: 100px;
+  background-color: aqua;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 100%;
 }
 
 .container-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 6;
-      -ms-flex: 6;
-          flex: 6;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-header {
-  width: 100%;
-  background-color: #191919;
-  color: white;
-  height: 40px;
-}
-
-.content-home {
-  height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  width: 90%;
+  background-color: brown;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: url(../img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.content-home h1 {
-  font-family: 'Lora', serif;
-  margin-top: 110px;
-  color: black;
+.header {
+  background-color: red;
+  height: 60px;
+}
+
+.content-home {
+  width: 100%;
+  height: 300px;
+  background-color: #5a1f48;
 }
 
 .content-entreprise {
-  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.content-entreprise p {
-  margin-top: 0;
-  margin-bottom: 0;
+.realisation-equipe {
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+}
+
+.image-equipe {
+  width: 50%;
+  height: 100%;
+  background-color: brown;
 }
 
 .content-projet {
-  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.content-projet p {
-  margin-top: 0;
-  margin-bottom: 0;
+.maison-texte {
+  width: 50%;
+  height: 100%;
+  background-color: lime;
+}
+
+.maison-image {
+  width: 50%;
+  height: 100%;
+  background-color: #782aa5;
 }
 
 .content-contact {
-  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: violet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.content-contact p {
-  margin-top: 0;
-  margin-bottom: 0;
+.plan-texte {
+  width: 50%;
+  height: 100px;
+  background-color: yellow;
 }
 
-footer {
-  padding: 7px;
-  text-align: center;
-  color: white;
+.plan {
+  width: 50%;
+  height: 100%;
+  background-color: brown;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #8bee82;
 }
 /*# sourceMappingURL=main.css.map */
