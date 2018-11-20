@@ -33,14 +33,29 @@
 }
 
 .header {
-  background-color: red;
-  height: 60px;
+  width: 100%;
+  background-color: #191919;
+  color: white;
+  height: 40px;
 }
 
 .content-home {
+  height: 100%;
   width: 100%;
-  height: 300px;
-  background-color: #5a1f48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content-entreprise {
@@ -107,8 +122,10 @@
 }
 
 .footer {
-  width: 100%;
-  height: 100px;
-  background-color: #8bee82;
+  height: 35px;
+  padding: 7px;
+  text-align: center;
+  color: white;
+  background-color: #191919;
 }
 /*# sourceMappingURL=main.css.map */
