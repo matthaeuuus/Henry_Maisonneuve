@@ -1,8 +1,23 @@
+html,body{
+    p{
+        font-family: 'HTOWERT';
+    }
+
+    color:white;
+}
+
 //CONTAINER
 
 .container{
     border: 2px solid black;
     display:flex;
+}
+
+//Import de la police High Tower Text
+
+@font-face {
+    font-family:'HTOWERT';
+    src: url(../fonts/HTOWERT.TTF);
 }
 
 //CONTAINER-LEFT
@@ -30,15 +45,28 @@
 
 //HEADER
 .header{
-    background-color: red;
-    height:60px;
+    width: 100%;
+    background-color: #191919;
+    color: white;
+    height: 40px;
 }
 
 //CONTENT-HOME
 .content-home{
-    width:100%;
-    height:300px;
-    background-color: rgb(90, 31, 72);
+    min-height: 600px;
+    width: 100%;
+    
+    background-image:url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    h1{
+        font-family: 'Lora', serif;
+        margin-top:110px;
+        color:black;
+        font-size: 3em;
+    }
 
 }
 //CONTENT-ENTREPRISE
@@ -106,7 +134,9 @@
 }
 //FOOTER
 .footer{
-    width:100%;
-    height: 100px;
-    background-color:rgb(139, 238, 130);
+    height: 35px;
+    padding: 7px;
+    text-align: center;    
+    color: white;
+    background-color:#191919;
 }
