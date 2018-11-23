@@ -187,7 +187,7 @@ html p, body p {
   height: 100%;
 }
 
-.reves-image {
+.reves-images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,8 +211,16 @@ html p, body p {
 
 .content-projet {
   width: 100%;
-  height: 100px;
-  background-color: violet;
+  min-height: 600px;
+  background-color: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.maison-texte-image {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,13 +229,87 @@ html p, body p {
 .maison-texte {
   width: 50%;
   height: 100%;
-  background-color: lime;
+}
+
+.maison-texte p {
+  font-size: 2.5em;
+  margin-top: 150px;
+  margin-left: 80px;
 }
 
 .maison-image {
   width: 50%;
   height: 100%;
-  background-color: #782aa5;
+  background-color: #191919;
+}
+
+.demeure-texte-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.demeure-texte {
+  width: 50%;
+  height: 100%;
+}
+
+.demeure-texte p {
+  font-size: 2.5em;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.demeure-image {
+  width: 50%;
+  height: 100%;
+  background-color: #191919;
+}
+
+.chateau-texte-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chateau-texte {
+  width: 50%;
+  height: 100%;
+}
+
+.chateau-texte p {
+  font-size: 2.5em;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.chateau-image {
+  width: 50%;
+  height: 100%;
+  background-color: #191919;
+}
+
+.building-texte-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.building-texte {
+  width: 100%;
+  height: 100%;
+}
+
+.building-texte p {
+  font-size: 2.5em;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.building-image {
+  width: 100%;
+  height: 100%;
+  background-color: #191919;
 }
 
 .content-contact {
