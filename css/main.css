@@ -293,11 +293,21 @@ html p, body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-height: 900px;
+  text-align: center;
+}
+
+.building-texte-image p {
+  font-size: 2.5em;
 }
 
 .building-texte {
-  width: 100%;
+  text-align: center;
   height: 100%;
+  width: 100%;
 }
 
 .building-texte p {
@@ -312,6 +322,10 @@ html p, body p {
   background-color: #191919;
 }
 
+.building-image img {
+  max-width: 100%;
+}
+
 .content-contact {
   width: 100%;
   height: 400px;
@@ -319,6 +333,10 @@ html p, body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.content-contact p {
+  font-size: 1.5em;
 }
 
 .plan-texte {
