@@ -65,8 +65,13 @@ body {
     transition: 0.5s;
 }
 .btn1:hover{
-    color: white;
     background-color: #FFA7A6;
+    .btn1clr{
+        color: white;
+    }
+}
+.btn1clr{
+    color: #FFA7A6;
 }
 .btn2{
     font-size: 3em;
@@ -75,8 +80,13 @@ body {
     transition: 0.5s;
 }
 .btn2:hover{
-    color: white;
     background-color: #AFFBFF;
+    .btn2clr{
+        color: white;
+    }
+}
+.btn2clr{
+    color: #AFFBFF;
 }
 .btn3{
     font-size: 3em;
@@ -85,10 +95,14 @@ body {
     transition: 0.5s;
 }
 .btn3:hover{
-    color: white;
-    background-color: #CFFF99;
+    background-color:#CFFF99;
+    .btn3clr{
+        color: white;
+    }
 }
-
+.btn3clr{
+    color: #CFFF99;
+}
 .btn4{
     font-size: 3em;
     color: #A68BE8;
@@ -96,15 +110,22 @@ body {
     transition: 0.5s;
 }
 .btn4:hover{
-    color: white;
     background-color: #A68BE8;
+    .btn4clr{
+        color: white;
+    }
 }
-
+.btn4clr{
+    color: #A68BE8;
+}
 .btn5{
     font-size: 3em;
     color: white;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+.btn5clr{
+    color: white;
 }
 }
 //CONTAINER-RIGHT

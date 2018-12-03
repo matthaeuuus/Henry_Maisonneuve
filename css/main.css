@@ -83,8 +83,15 @@ body p {
 }
 
 .container-left .btn1:hover {
-  color: white;
   background-color: #FFA7A6;
+}
+
+.container-left .btn1:hover .btn1clr {
+  color: white;
+}
+
+.container-left .btn1clr {
+  color: #FFA7A6;
 }
 
 .container-left .btn2 {
@@ -95,8 +102,15 @@ body p {
 }
 
 .container-left .btn2:hover {
-  color: white;
   background-color: #AFFBFF;
+}
+
+.container-left .btn2:hover .btn2clr {
+  color: white;
+}
+
+.container-left .btn2clr {
+  color: #AFFBFF;
 }
 
 .container-left .btn3 {
@@ -107,8 +121,15 @@ body p {
 }
 
 .container-left .btn3:hover {
-  color: white;
   background-color: #CFFF99;
+}
+
+.container-left .btn3:hover .btn3clr {
+  color: white;
+}
+
+.container-left .btn3clr {
+  color: #CFFF99;
 }
 
 .container-left .btn4 {
@@ -119,8 +140,15 @@ body p {
 }
 
 .container-left .btn4:hover {
-  color: white;
   background-color: #A68BE8;
+}
+
+.container-left .btn4:hover .btn4clr {
+  color: white;
+}
+
+.container-left .btn4clr {
+  color: #A68BE8;
 }
 
 .container-left .btn5 {
@@ -128,6 +156,10 @@ body p {
   color: white;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.container-left .btn5clr {
+  color: white;
 }
 
 .container-right {
