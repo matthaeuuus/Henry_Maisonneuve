@@ -176,6 +176,14 @@ body {
         font-family: 'Lora', serif;
         font-weight: bold;
     }
+    .arrow{
+        font-size: 3em;
+        text-align: center;
+        margin-top: 400px;
+    }
+    .fas{
+        color: #FFA7A6;
+    }
 }
 
 //CONTENT-ENTREPRISE
@@ -302,12 +310,15 @@ body {
 .maison-texte-image {
     display: flex;
     min-height: 400px;
+    margin-top: 200px;
+
 }
 
 //TEXTE A COTE DE LA MAISON
 .maison-texte {
     width: 50%;
     height: 100%;
+    text-align: center;
     p {
         font-size: 2.5em;
         margin-top: 150px;
@@ -318,11 +329,6 @@ body {
 //IMAGE DE LA MAISON
 .maison-image {
     width: 50%;
-
-    background-image: url(../img/maison.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 //TEXTE DEMEURE + IMAGE DEMEURE
@@ -334,6 +340,7 @@ body {
 .demeure-texte {
     width: 50%;
     height: 100%;
+    text-align: center;
     p {
         font-size: 2.5em;
         margin-top: 150px;
@@ -357,6 +364,7 @@ body {
 .chateau-texte {
     width: 50%;
     height: 100%;
+    text-align: center;
     p {
         font-size: 2.5em;
         margin-top: 150px;
