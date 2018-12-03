@@ -36,10 +36,6 @@ body {
     }
 }
 
-
-
-
-
 .buttons {
     display: flex;
     flex-direction: column;
@@ -211,6 +207,7 @@ body {
 .image-equipe {
     width: 50%;
     height: 100%;
+    
     img {
         max-width: 100%;
     }
@@ -219,12 +216,17 @@ body {
 //PLAN + NOUS CREONS
 .plan-archi {
     display: flex;
+    width: 100%;
+    min-height:400px;
 }
 
 //IMAGE PLAN
 .image-plan {
     width: 50%;
-    height: 100%;
+    background-image: url(../img/plan_archi.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 //TEXTE CREATION
@@ -241,6 +243,7 @@ body {
 //MACON + CONSTRUISONS
 .macon-construction {
     display: flex;
+    min-height: 400px;
 }
 
 //TEXTE CONSTRUISONS
@@ -256,17 +259,24 @@ body {
 
 .macon-image {
     width: 50%;
-    height: 100%;
+    background-image: url(../img/Construisons.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 //IMAGE + VOS REVES
 .reves-images {
     display: flex;
+    min-height: 400px;
 }
 
 .reve {
     width: 50%;
-    height: 100%;
+    background-image: url(../img/Rendu_clé.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .vos-reves {
@@ -291,6 +301,7 @@ body {
 //TEXTE MAISON + IMAGE MAISON
 .maison-texte-image {
     display: flex;
+    min-height: 400px;
 }
 
 //TEXTE A COTE DE LA MAISON
@@ -307,8 +318,11 @@ body {
 //IMAGE DE LA MAISON
 .maison-image {
     width: 50%;
-    height: 100%;
-    background-color: #191919;
+
+    background-image: url(../img/maison.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 //TEXTE DEMEURE + IMAGE DEMEURE
@@ -490,13 +504,15 @@ body {
 
 //FOOTER
 .footer {
+    width: 60%;
     height: 35px;
+    margin-left: 20%;
     padding: 7px;
     text-align: center;
     color: white;
     background-color: #191919;
+    border-top: 2px solid white;
 }
-
 //MEDIA QUERIES
 @media screen and (max-width:680px) {
     //CONTAINER-LFET

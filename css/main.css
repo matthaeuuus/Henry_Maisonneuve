@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'HTOWERT';
   src: url(../fonts/HTOWERT.TTF);
@@ -265,11 +266,16 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  min-height: 400px;
 }
 
 .image-plan {
   width: 50%;
-  height: 100%;
+  background-image: url(../img/plan_archi.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .creation {
@@ -287,6 +293,7 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 400px;
 }
 
 .construisons {
@@ -302,18 +309,25 @@ body p {
 
 .macon-image {
   width: 50%;
-  height: 100%;
+  background-image: url(../img/Construisons.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .reves-images {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 400px;
 }
 
 .reve {
   width: 50%;
-  height: 100%;
+  background-image: url(../img/Rendu_clé.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .vos-reves {
@@ -342,6 +356,7 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 400px;
 }
 
 .maison-texte {
@@ -357,8 +372,10 @@ body p {
 
 .maison-image {
   width: 50%;
-  height: 100%;
-  background-color: #191919;
+  background-image: url(../img/maison.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .demeure-texte-image {
@@ -556,11 +573,14 @@ body p {
 }
 
 .footer {
+  width: 60%;
   height: 35px;
+  margin-left: 20%;
   padding: 7px;
   text-align: center;
   color: white;
   background-color: #191919;
+  border-top: 2px solid white;
 }
 
 @media screen and (max-width: 680px) {
