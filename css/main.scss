@@ -1,68 +1,94 @@
-html,
-body {
-    p {
-        font-family: 'HTOWERT';
-    }
-    color:white;
-}
-
-//CONTAINER
-.container {
-    border: 2px solid black;
-    display: flex;
-}
-
 //Import de la police High Tower Text
 @font-face {
     font-family: 'HTOWERT';
     src: url(../fonts/HTOWERT.TTF);
 }
 
+html,
+body {
+    p {
+        font-family: 'HTOWERT';
+        color: white;
+    }
+    background-color: #191919;
+}
+
+//CONTAINER
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #191919;
+}
+
 //CONTAINER-LEFT
-.container-left{
-    width:10%;
-    background-color:#191919;
+.container-left {
+    width: 15%;
 }
 
-.sidebar{
+.sidebar {
     position: fixed;
-    top: 50%;
-    width: 8em;
-    margin-top: -19em;
-    background-color:#191919;
-
+    height: 100px;
+    background-color: #191919;
 }
 
-
-.buttons{
+.buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     li {
         margin: 50px;
         margin-bottom: 10px;
     }
 }
 
-.btn1{
-    font-size: 3em; 
-    color:#FFA7A6;
+.btn1 {
+    font-size: 3em;
+    color: #FFA7A6;
 }
 
-.btn1:hover{
-    color: white; 
+.btn1:hover {
+    color: white;
     background-color: #FFA7A6;
 }
+.btn2{
+    font-size: 3em;
+    color: #AFFBFF;
+}
+.btn2:hover{
+    color: white;
+    background-color: #AFFBFF;
+    display: block;
+}
+
+.btn3{
+    font-size: 3em;
+    color: #CFFF99;
+}
+.btn3:hover{
+    color: white;
+    background-color: #CFFF99;
+}
+
+.btn4{
+    font-size: 3em;
+    color: #A68BE8;
+}
+.btn4:hover{
+    color: white;
+    background-color: #A68BE8;
+}
+
+.btn5{
+    font-size: 3em;
+    color: white;
+}
 
 
-
-//CONTAINER-RIGHT
 //CONTAINER-RIGHT
 .container-right {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 85%;
     background-color: #191919;
     flex-direction: column;
 }
@@ -130,7 +156,7 @@ body {
     p {
         font-size: 2.5em;
         margin-top: 150px;
-        margin-left: 80px;
+        margin-left: 260px;
     }
 }
 
@@ -167,7 +193,7 @@ body {
 
 //MACON + CONSTRUISONS
 .macon-construction {
-    display: flex; //align-items:flex-end;
+    display: flex;
 }
 
 //TEXTE CONSTRUISONS
@@ -187,7 +213,7 @@ body {
 }
 
 //IMAGE + VOS REVES
-.reves-image {
+.reves-images {
     display: flex;
 }
 
@@ -209,8 +235,14 @@ body {
 //CONTENT PROJET
 .content-projet {
     width: 100%;
-    height: 100px;
-    background-color: violet;
+    min-height: 600px;
+    background-color: #191919;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+//TEXTE MAISON + IMAGE MAISON
+.maison-texte-image {
     display: flex;
 }
 
@@ -218,14 +250,96 @@ body {
 .maison-texte {
     width: 50%;
     height: 100%;
-    background-color: rgb(0, 255, 0);
+    p {
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
 }
 
 //IMAGE DE LA MAISON
 .maison-image {
     width: 50%;
     height: 100%;
-    background-color: rgb(120, 42, 165);
+    background-color: #191919;
+}
+
+//TEXTE DEMEURE + IMAGE DEMEURE
+.demeure-texte-image {
+    display: flex;
+}
+
+//TEXTE A COTE DE LA DEMEURE
+.demeure-texte {
+    width: 50%;
+    height: 100%;
+    p {
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+//IMAGE DE LA DEMEURE
+.demeure-image {
+    width: 50%;
+    height: 100%;
+    background-color: #191919;
+}
+
+//TEXTE CHATEAU + IMAGE CHATEAU
+.chateau-texte-image {
+    display: flex;
+}
+
+//TEXTE A COTE DU CHATEAU
+.chateau-texte {
+    width: 50%;
+    height: 100%;
+    p {
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+//IMAGE DU CHATEAU
+.chateau-image {
+    width: 50%;
+    height: 100%;
+    background-color: #191919;
+}
+
+//TEXTE BUILDING + IMAGE
+.building-texte-image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 900px;
+    text-align: center;
+    p {
+        font-size: 2.5em;
+    }
+}
+
+.building-texte {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    p {
+        font-size: 2.5em;
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+}
+
+.building-image {
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    img {
+        max-width: 100%;
+    }
 }
 
 .content-contact {
@@ -235,12 +349,17 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    p {
+        font-size: 1.5em;
+    }
 }
 
 .plan-texte {
     width: 100%;
     height: 400px;
     background-color: #191919;
+    text-align: center;
+    margin-top: 150px;
 }
 
 .plan {
@@ -250,6 +369,77 @@ body {
     margin: 60px 20px 30px 0px;
 }
 
+//FORMULAIRE
+.formulaire {
+    margin: 20px 0px 30px 110px;
+    background-color: #191919;
+    p {
+        font-family: 'HTOWERT';
+        color: white;
+        margin-bottom: 50px;
+        font-size: 1.5em;
+    }
+    form {
+        width: 55%;
+    }
+    .form input {
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+    .inputbasic {
+        width: 40%;
+        padding: 7px;
+        transition: 0.5ms;
+        font-family: 'Roboto', sans-serif;
+        border: 1.4px solid;
+        border-radius: 10px;
+        background-color: rgb(231, 230, 230);
+        outline: none;
+    }
+    input:invalid:focus,
+    textarea:invalid:focus {
+        border-color: #FF0000;
+        transition: 0.5s;
+    }
+    input:valid:focus,
+    textarea:valid:focus {
+        border-color: #56c93f;
+        transition: 0.5s;
+    }
+    .message {
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        height: 100px;
+        padding: 7px;
+        border: 1.4px solid;
+        border-color: lightgrey;
+        border-radius: 10px;
+        background-color: rgb(231, 230, 230);
+        outline: none;
+    }
+    #submit {
+        width: 100px;
+        height: 30px;
+        margin-top: 15px;
+        border: 0px solid;
+        border-radius: 25px;
+        text-align: center;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        background-color: rgb(231, 230, 230);
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+        outline: none;
+    }
+    #submit:hover {
+        background-color: #191919;
+        color: white;
+        border: 1px solid lightgrey;
+    }
+}
+
 //FOOTER
 .footer {
     height: 35px;
@@ -257,4 +447,12 @@ body {
     text-align: center;
     color: white;
     background-color: #191919;
+}
+
+//MEDIA QUERIES
+@media screen and (max-width:680px) {
+    //CONTAINER-LFET
+    .container-left {
+        display: none
+    } //CONTENT-HOME
 }
