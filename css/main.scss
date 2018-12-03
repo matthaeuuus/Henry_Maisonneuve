@@ -19,22 +19,43 @@ body {
 }
 
 //CONTAINER-LEFT
-.container-left {
-    width: 10%;
+.container-left{
+    width:10%;
+    background-color:#191919;
 }
 
-.sidebar {
-    height: 100px;
-    background-color: #191919;
-    height: 100%;
+.sidebar{
+    position: fixed;
+    top: 50%;
+    width: 8em;
+    margin-top: -19em;
+    background-color:#191919;
+
 }
 
-.buttons {
+
+.buttons{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 15px;
+
+    li {
+        margin: 50px;
+        margin-bottom: 10px;
+    }
 }
+
+.btn1{
+    font-size: 3em; 
+    color:#FFA7A6;
+}
+
+.btn1:hover{
+    color: white; 
+    background-color: #FFA7A6;
+}
+
+
 
 //CONTAINER-RIGHT
 //CONTAINER-RIGHT

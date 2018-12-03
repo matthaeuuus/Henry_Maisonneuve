@@ -22,12 +22,15 @@ body p {
 
 .container-left {
   width: 10%;
+  background-color: #191919;
 }
 
 .sidebar {
-  height: 100px;
+  position: fixed;
+  top: 50%;
+  width: 8em;
+  margin-top: -19em;
   background-color: #191919;
-  height: 100%;
 }
 
 .buttons {
@@ -41,7 +44,21 @@ body p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 15px;
+}
+
+.buttons li {
+  margin: 50px;
+  margin-bottom: 10px;
+}
+
+.btn1 {
+  font-size: 3em;
+  color: #FFA7A6;
+}
+
+.btn1:hover {
+  color: white;
+  background-color: #FFA7A6;
 }
 
 .container-right {
