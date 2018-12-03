@@ -22,47 +22,67 @@ body {
 
 //CONTAINER-LEFT
 .container-left {
-    width: 15%;
-}
+    width: 10%;
 
 .sidebar {
+    height: 100%;
+    width: 10%;
+    display: flex;
     position: fixed;
-    height: 100px;
     background-color: #191919;
+
+    ul {
+        width: 100%;
+    }
 }
+
+
+
+
 
 .buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+
+    height: 100%;
+    width: 100%;
+
     li {
-        margin: 50px;
-        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        width: 100%;
     }
 }
 
-.btn1 {
+.btn1{
     font-size: 3em;
     color: #FFA7A6;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
-
-.btn1:hover {
+.btn1:hover{
     color: white;
     background-color: #FFA7A6;
 }
 .btn2{
     font-size: 3em;
     color: #AFFBFF;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .btn2:hover{
     color: white;
     background-color: #AFFBFF;
-    display: block;
 }
-
 .btn3{
     font-size: 3em;
     color: #CFFF99;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .btn3:hover{
     color: white;
@@ -72,6 +92,8 @@ body {
 .btn4{
     font-size: 3em;
     color: #A68BE8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 .btn4:hover{
     color: white;
@@ -81,26 +103,30 @@ body {
 .btn5{
     font-size: 3em;
     color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
-
-
+}
 //CONTAINER-RIGHT
 .container-right {
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 90%;
     background-color: #191919;
     flex-direction: column;
 }
 
 //HEADER
 .header {
+    position: fixed;
     width: 100%;
     background-color: #191919;
     color: white;
     height: 40px;
     font-size: 13px;
-    p {
+    
+
+    p{
         margin-left: 5px;
         margin-top: 0;
     }
@@ -308,6 +334,7 @@ body {
     width: 50%;
     height: 100%;
     background-color: #191919;
+    text-align: center;
 }
 
 //TEXTE BUILDING + IMAGE
