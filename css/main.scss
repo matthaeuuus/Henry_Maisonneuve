@@ -190,43 +190,38 @@ body {
 //REALISONS ENSEMBLE  + EQUIPE
 .equipe {
     display: flex;
-    margin: 20px 20px 20px 20px
-}
+    margin: 20px 20px 20px 20px;
+    min-height: 600px;
 
-//REALISONS ENSEMBLE
-.realisation-equipe {
-    width: 50%;
-    height: 100%;
-    p {
-        font-size: 2.5em;
-        margin-top: 150px;
-        margin-left: 260px;
-    }
-    .ensemble {
-        width: 100%;
-        height: 50%;
+    //REALISONS ENSEMBLE
+    .realisation-equipe {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 30%;
+        height: 100%;
         p {
-            display: flex;
-            flex-wrap: wrap;
+            font-size: 2.5em;
         }
-        .arrow {
-            font-size: 3em;
-            .fas {
-                display: flex;
-                justify-content: center;
-                color: #AFFBFF;
-            }
-            a {
-                text-decoration: none;
-            }
+        .content-ri {
+            width: 100%;
+            height: 30%;
+            margin-left: 40%;
+            margin-top: 100px;
+        }
+        .content-en {
+            width: 100%;
+            height: 30%;
+            margin-left: 40%;
+            margin-top: 200px;
         }
     }
 }
 
 //IMAGE DE L'EQUIPE
 .image-equipe {
-    width: 50%;
-    min-height: 90%;
+    width: 70%;
+    min-height: 300px;
     background-image: url(../img/Equipe.PNG);
     background-repeat: no-repeat;
     background-size: cover;
@@ -434,6 +429,7 @@ body {
     display: flex;
     p {
         font-size: 1.5em;
+        padding: 5px;
     }
 }
 
@@ -442,7 +438,7 @@ body {
     height: 400px;
     background-color: #191919;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 110px;
 }
 
 .plan {
