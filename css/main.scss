@@ -23,107 +23,102 @@ body {
 //CONTAINER-LEFT
 .container-left {
     width: 10%;
-
-.sidebar {
-    height: 100%;
-    width: 10%;
-    display: flex;
-    position: fixed;
-    background-color: #191919;
-
-    ul {
-        width: 100%;
-    }
-}
-
-.buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-
-    height: 100%;
-    width: 100%;
-
-    li {
+    .sidebar {
+        height: 100%;
+        width: 10%;
         display: flex;
-        justify-content: center;
+        position: fixed;
+        background-color: #191919;
+        ul {
+            width: 100%;
+        }
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        flex: 1;
+        justify-content: space-evenly;
+        height: 100%;
         width: 100%;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex: 1;
+            width: 100%;
+        }
+    }
+    .btn1 {
+        font-size: 3em;
+        color: #FFA7A6;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn1:hover {
+        background-color: #FFA7A6;
+        .btn1clr {
+            color: white;
+        }
+    }
+    .btn1clr {
+        color: #FFA7A6;
+    }
+    .btn2 {
+        font-size: 3em;
+        color: #AFFBFF;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn2:hover {
+        background-color: #AFFBFF;
+        .btn2clr {
+            color: white;
+        }
+    }
+    .btn2clr {
+        color: #AFFBFF;
+    }
+    .btn3 {
+        font-size: 3em;
+        color: #CFFF99;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn3:hover {
+        background-color: #CFFF99;
+        .btn3clr {
+            color: white;
+        }
+    }
+    .btn3clr {
+        color: #CFFF99;
+    }
+    .btn4 {
+        font-size: 3em;
+        color: #A68BE8;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn4:hover {
+        background-color: #A68BE8;
+        .btn4clr {
+            color: white;
+        }
+    }
+    .btn4clr {
+        color: #A68BE8;
+    }
+    .btn5 {
+        font-size: 3em;
+        color: white;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn5clr {
+        color: white;
     }
 }
 
-.btn1{
-    font-size: 3em;
-    color: #FFA7A6;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn1:hover{
-    background-color: #FFA7A6;
-    .btn1clr{
-        color: white;
-    }
-}
-.btn1clr{
-    color: #FFA7A6;
-}
-.btn2{
-    font-size: 3em;
-    color: #AFFBFF;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn2:hover{
-    background-color: #AFFBFF;
-    .btn2clr{
-        color: white;
-    }
-}
-.btn2clr{
-    color: #AFFBFF;
-}
-.btn3{
-    font-size: 3em;
-    color: #CFFF99;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn3:hover{
-    background-color:#CFFF99;
-    .btn3clr{
-        color: white;
-    }
-}
-.btn3clr{
-    color: #CFFF99;
-}
-.btn4{
-    font-size: 3em;
-    color: #A68BE8;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn4:hover{
-    background-color: #A68BE8;
-    .btn4clr{
-        color: white;
-    }
-}
-.btn4clr{
-    color: #A68BE8;
-}
-.btn5{
-    font-size: 3em;
-    color: white;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-.btn5clr{
-    color: white;
-}
-}
 //CONTAINER-RIGHT
 .container-right {
     display: flex;
@@ -135,15 +130,12 @@ body {
 
 //HEADER
 .header {
-    
     width: 100%;
     background-color: #191919;
     color: white;
     height: 40px;
     font-size: 13px;
-    
-
-    p{
+    p {
         margin-left: 5px;
         margin-top: 0;
     }
@@ -176,12 +168,12 @@ body {
         font-family: 'Lora', serif;
         font-weight: bold;
     }
-    .arrow{
+    .arrow {
         font-size: 3em;
         text-align: center;
         margin-top: 400px;
     }
-    .fas{
+    .fas {
         color: #FFA7A6;
     }
 }
@@ -209,13 +201,28 @@ body {
         margin-top: 150px;
         margin-left: 260px;
     }
+    .ensemble {
+        width: 100%;
+        height: 50%;
+        p{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .arrow {
+            font-size: 3em;
+            .fas {
+                display: flex;
+                justify-content: center;
+                color: #AFFBFF;
+            }
+        }
+    }
 }
 
 //IMAGE DE L'EQUIPE
 .image-equipe {
     width: 50%;
     height: 100%;
-    
     img {
         max-width: 100%;
     }
@@ -225,7 +232,7 @@ body {
 .plan-archi {
     display: flex;
     width: 100%;
-    min-height:400px;
+    min-height: 400px;
 }
 
 //IMAGE PLAN
@@ -311,7 +318,6 @@ body {
     display: flex;
     min-height: 400px;
     margin-top: 200px;
-
 }
 
 //TEXTE A COTE DE LA MAISON
@@ -330,7 +336,7 @@ body {
 .maison-image {
     width: 50%;
     text-align: right;
-    img{
+    img {
         box-shadow: 0px 0px 80px -5px lightgrey;
     }
 }
@@ -355,7 +361,6 @@ body {
 //IMAGE DE LA DEMEURE
 .demeure-image {
     width: 50%;
-    
 }
 
 //TEXTE CHATEAU + IMAGE CHATEAU
@@ -380,7 +385,7 @@ body {
     width: 50%;
     height: 100%;
     text-align: right;
-    img{
+    img {
         box-shadow: 0px 0px 80px -5px lightgrey;
     }
 }
@@ -413,7 +418,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
 .content-contact {
@@ -525,6 +529,7 @@ body {
     background-color: #191919;
     border-top: 2px solid white;
 }
+
 //MEDIA QUERIES
 @media screen and (max-width:680px) {
     //CONTAINER-LFET
