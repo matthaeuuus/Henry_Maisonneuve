@@ -249,6 +249,7 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 20px 20px 20px 20px;
 }
 
 .realisation-equipe {
@@ -295,11 +296,11 @@ body p {
 
 .image-equipe {
   width: 50%;
-  height: 100%;
-}
-
-.image-equipe img {
-  max-width: 100%;
+  min-height: 90%;
+  background-image: url(../img/Equipe.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .plan-archi {
