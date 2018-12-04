@@ -178,7 +178,6 @@ body p {
 }
 
 .header {
-  position: fixed;
   width: 100%;
   background-color: #191919;
   color: white;
@@ -384,6 +383,12 @@ body p {
 
 .maison-image {
   width: 50%;
+  text-align: right;
+}
+
+.maison-image img {
+  -webkit-box-shadow: 0px 0px 80px -5px lightgrey;
+          box-shadow: 0px 0px 80px -5px lightgrey;
 }
 
 .demeure-texte-image {
@@ -406,8 +411,6 @@ body p {
 
 .demeure-image {
   width: 50%;
-  height: 100%;
-  background-color: #191919;
 }
 
 .chateau-texte-image {
@@ -431,8 +434,12 @@ body p {
 .chateau-image {
   width: 50%;
   height: 100%;
-  background-color: #191919;
-  text-align: center;
+  text-align: right;
+}
+
+.chateau-image img {
+  -webkit-box-shadow: 0px 0px 80px -5px lightgrey;
+          box-shadow: 0px 0px 80px -5px lightgrey;
 }
 
 .building-texte-image {
@@ -442,7 +449,7 @@ body p {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  min-height: 900px;
+  min-height: 700px;
   text-align: center;
 }
 
@@ -452,24 +459,21 @@ body p {
 
 .building-texte {
   text-align: center;
-  height: 100%;
   width: 100%;
 }
 
 .building-texte p {
   font-size: 2.5em;
-  margin-top: 150px;
-  margin-left: 80px;
+  margin-top: 100px;
 }
 
 .building-image {
   width: 100%;
-  height: 100%;
-  background-color: #191919;
-}
-
-.building-image img {
-  max-width: 100%;
+  min-height: 650px;
+  background-image: url(../img/building.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content-contact {
