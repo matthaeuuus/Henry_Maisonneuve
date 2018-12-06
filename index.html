@@ -70,7 +70,7 @@
                             <p><i>Réalisons l'impossible ...</i></p>
                         </div>
                         <div class="content-en">
-                            <p><i>Ensemble</i></p>
+                            <p>Ensemble</p>
                             <a href="#retourimageplan"><i class="fas fa-angle-down"></i></a>
 
                         </div>
@@ -90,7 +90,7 @@
 
                     <!--NOUS CREONS-->
                     <div class="creation">
-                        <p> <i>Nous créons...</i></p>
+                        <p>Nous créons...</p>
                     </div>
                 </div>
 
@@ -99,7 +99,7 @@
 
                     <!--NOUS CONSTRUISONS-->
                     <div class="construisons">
-                        <p> <i>...Construisons</i></p>
+                        <p>...Construisons</p>
                     </div>
                     <!--IMAGE MACON-->
                     <div class="macon-image">
@@ -115,7 +115,7 @@
 
 
                     <div class="vos-reves">
-                        <p> <i>...Vos reves</i></p>
+                        <p>...Vos reves</p>
                     </div>
 
                 </div>
@@ -132,7 +132,7 @@
 
                     <!-- TEXTE A COTE DE LA MAISON-->
                     <div class="maison-texte">
-                        <p>Nous avons commencé par de simples maisons <br> ...</p>
+                        <p><i>avons commencé par de simples maisons</i><br> ...</p>
                     </div>
 
                     <!--IMAGE  DE LA MAISON-->
@@ -179,7 +179,7 @@
                     <!--TEXTE A COTE DU BUILDING-->
 
                     <div class="building-texte">
-                        <p><i>Mais ceci n'est que le passé</i></p>
+                        <p>Mais ceci n'est que le passé</p><br>
                     </div>
 
 
@@ -219,14 +219,13 @@
             <div class="formulaire">
                 <p>Vous souhaitez nous contacter ?</p>
 
-                <form method="GET" action="" class="form">
+                <form method="POST" action="./contact.php" class="form">
 
-                    <input type="text" id="prenom" placeholder="Nom et prénom" class="inputbasic" maxlength="30"
-                        required><br>
+                    <input type="text" id="prenom" name="name" placeholder="Nom et prénom" class="inputbasic" maxlength="30" required><br>
 
-                    <input type="email" id="nom" placeholder="Adresse email" class="inputbasic" maxlength="30" required><br>
+                    <input type="email" id="nom" name="email" placeholder="Adresse email" class="inputbasic" maxlength="30" required><br>
 
-                    <textarea id="message" placeholder="Entrez votre message" class="message" maxlength="255" required></textarea><br>
+                    <textarea id="message" name="message" placeholder="Entrez votre message" class="message" maxlength="255" required></textarea><br>
 
                     <input type="submit" value="Envoyer" id="submit">
 

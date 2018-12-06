@@ -401,6 +401,8 @@ body p {
   display: flex;
   min-height: 400px;
   margin-top: 200px;
+  width: 100%;
+  margin-right: 10%;
 }
 
 .maison-texte {
@@ -429,6 +431,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  margin-left: 5%;
 }
 
 .demeure-texte {
@@ -451,6 +455,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
+  margin-right: 10%;
 }
 
 .chateau-texte {
@@ -632,9 +638,40 @@ body p {
   border-top: 2px solid white;
 }
 
+/* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 680px) {
   .container-left {
     display: none;
   }
+  .container-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header {
+    text-align: center;
+  }
+  .content-home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 /*# sourceMappingURL=main.css.map */

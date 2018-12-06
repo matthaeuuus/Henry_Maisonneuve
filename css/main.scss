@@ -152,7 +152,7 @@ body {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:center;
     h2 {
         font-family: 'Lora', serif;
         text-align: center;
@@ -321,6 +321,8 @@ body {
     display: flex;
     min-height: 400px;
     margin-top: 200px;
+    width: 100%;
+    margin-right: 10%;
 }
 
 //TEXTE A COTE DE LA MAISON
@@ -347,6 +349,8 @@ body {
 //TEXTE DEMEURE + IMAGE DEMEURE
 .demeure-texte-image {
     display: flex;
+    width: 100%;
+    margin-left: 5%;
 }
 
 //TEXTE A COTE DE LA DEMEURE
@@ -369,6 +373,8 @@ body {
 //TEXTE CHATEAU + IMAGE CHATEAU
 .chateau-texte-image {
     display: flex;
+    width: 100%;
+    margin-right: 10%;
 }
 
 //TEXTE A COTE DU CHATEAU
@@ -535,9 +541,51 @@ body {
 }
 
 //MEDIA QUERIES
+/* Extra small devices (phones, 600px and down) */
 @media screen and (max-width:680px) {
-    //CONTAINER-LFET
+    //CONTAINER-LEFT
     .container-left {
         display: none
-    } //CONTENT-HOME
+    } 
+    //CONTAINER - RIGHT
+    .container-right{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column
+    }
+
+    .header{
+        text-align: center
+    }
+
+    .content-home {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    
+
+
+    //
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 680px) {
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
