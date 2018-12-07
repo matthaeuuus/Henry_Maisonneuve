@@ -518,7 +518,7 @@ body p {
 
 .content-contact {
   width: 100%;
-  height: 400px;
+  height: 300px;
   background-color: #191919;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -534,7 +534,7 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 600px;
+  width: 100%;
   margin-top: 20px;
 }
 
