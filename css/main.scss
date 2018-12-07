@@ -171,7 +171,7 @@ body {
     .arrow {
         font-size: 3em;
         text-align: center;
-        margin-top: 400px;
+        margin-top: 350px;
     }
     .fas {
         color: #FFA7A6;
@@ -190,7 +190,6 @@ body {
 //REALISONS ENSEMBLE  + EQUIPE
 .equipe {
     display: flex;
-    margin: 20px 0px 20px 20px;
     min-height: 600px;
 }
 
@@ -205,7 +204,7 @@ body {
         font-size: 2.5em;
     }
     .content-ri {
-        width: 170%;
+        width: 100%;
         text-align: center;
     }
     .content-en {
@@ -437,6 +436,7 @@ body {
 .content-contact {
     width: 100%;
     height: 300px;
+    flex-wrap: wrap;
     background-color: #191919;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -451,6 +451,7 @@ body {
 
 .box-plan-texte {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 20px;
 }
@@ -584,28 +585,58 @@ body {
         flex-direction: column;
     }
 
+
+
     .realisation-equipe{
-        
+        width: 100%;
+    }
+
+    .content.ri{
+        width: 100%;
+        text-align: center;
+        p{
+            font-size: 1.5em;
+        }
+    }
+
+    .image-equipe{
+        width: 100%;
+        min-height: 300px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
 
     .image-plan{
         width: 100%;
+        height: 300px;
+
     }
 
     .creation{
-        width: 100%;
+        width:100%;
+        p{
+            margin-top: 0px;
+            
+        }
     }
 
     .construisons {
         width: 100%;
+        p{
+            margin-top: 0px;
+            
+        }
     }
 
     .macon-image{
         width: 100%;
+        height: 300px;
     }
 
     .reve{
         width: 100%;
+        height: 300px;
     }
 
     .vos-reves{
@@ -633,6 +664,15 @@ body {
     }
 
     .chateau-image{
+        width: 100%;
+    }
+
+    .plan-texte{
+        width:100%;
+
+    }
+
+    .plan{
         width: 100%;
     }
 

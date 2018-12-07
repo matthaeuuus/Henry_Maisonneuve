@@ -224,7 +224,7 @@ body p {
 .content-home .arrow {
   font-size: 3em;
   text-align: center;
-  margin-top: 400px;
+  margin-top: 350px;
 }
 
 .content-home .fas {
@@ -249,7 +249,6 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 20px 0px 20px 20px;
   min-height: 600px;
 }
 
@@ -273,7 +272,7 @@ body p {
 }
 
 .realisation-equipe .content-ri {
-  width: 170%;
+  width: 100%;
   text-align: center;
 }
 
@@ -530,6 +529,8 @@ body p {
 .content-contact {
   width: 100%;
   height: 300px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   background-color: #191919;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,6 +546,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin-top: 20px;
 }
@@ -694,20 +697,46 @@ body p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .realisation-equipe {
+    width: 100%;
+  }
+  .content.ri {
+    width: 100%;
+    text-align: center;
+  }
+  .content.ri p {
+    font-size: 1.5em;
+  }
+  .image-equipe {
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
   .image-plan {
     width: 100%;
+    height: 300px;
   }
   .creation {
     width: 100%;
   }
+  .creation p {
+    margin-top: 0px;
+  }
   .construisons {
     width: 100%;
   }
+  .construisons p {
+    margin-top: 0px;
+  }
   .macon-image {
     width: 100%;
+    height: 300px;
   }
   .reve {
     width: 100%;
+    height: 300px;
   }
   .vos-reves {
     width: 100%;
@@ -728,6 +757,12 @@ body p {
     width: 100%;
   }
   .chateau-image {
+    width: 100%;
+  }
+  .plan-texte {
+    width: 100%;
+  }
+  .plan {
     width: 100%;
   }
 }
