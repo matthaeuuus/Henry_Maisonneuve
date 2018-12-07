@@ -551,7 +551,8 @@ body {
     .container-right{
         display:flex;
         flex-wrap: wrap;
-        flex-direction: column
+        flex-direction: column;
+        width: 100%;
     }
 
     .header{
