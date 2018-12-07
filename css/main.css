@@ -309,6 +309,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   min-height: 400px;
 }
@@ -323,7 +325,6 @@ body p {
 
 .creation {
   width: 50%;
-  height: 100%;
 }
 
 .creation p {
@@ -337,6 +338,8 @@ body p {
   display: -ms-flexbox;
   display: flex;
   min-height: 400px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .construisons {
@@ -363,6 +366,8 @@ body p {
   display: -ms-flexbox;
   display: flex;
   min-height: 400px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .reve {
@@ -399,6 +404,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   min-height: 400px;
   margin-top: 200px;
   width: 100%;
@@ -431,6 +438,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin-left: 5%;
 }
@@ -455,6 +464,8 @@ body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
   margin-right: 10%;
 }
@@ -553,7 +564,7 @@ body p {
   height: 100%;
 }
 
-.formulaire {
+.formulaire .pos-form {
   margin: 20px 0px 30px 110px;
   background-color: #191919;
 }
@@ -682,6 +693,42 @@ body p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .image-plan {
+    width: 100%;
+  }
+  .creation {
+    width: 100%;
+  }
+  .construisons {
+    width: 100%;
+  }
+  .macon-image {
+    width: 100%;
+  }
+  .reve {
+    width: 100%;
+  }
+  .vos-reves {
+    width: 100%;
+  }
+  .maison-texte {
+    width: 100%;
+  }
+  .maison-image {
+    width: 100%;
+  }
+  .demeure-image {
+    width: 100%;
+  }
+  .demeure-texte {
+    width: 100%;
+  }
+  .chateau-texte {
+    width: 100%;
+  }
+  .chateau-image {
+    width: 100%;
   }
 }
 

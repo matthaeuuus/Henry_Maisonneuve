@@ -234,6 +234,7 @@ body {
 //PLAN + NOUS CREONS
 .plan-archi {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     min-height: 400px;
 }
@@ -250,7 +251,6 @@ body {
 //TEXTE CREATION
 .creation {
     width: 50%;
-    height: 100%;
     p {
         font-size: 2.5em;
         margin-top: 150px;
@@ -262,6 +262,7 @@ body {
 .macon-construction {
     display: flex;
     min-height: 400px;
+    flex-wrap: wrap;
 }
 
 //TEXTE CONSTRUISONS
@@ -287,6 +288,7 @@ body {
 .reves-images {
     display: flex;
     min-height: 400px;
+    flex-wrap: wrap;
 }
 
 .reve {
@@ -319,6 +321,7 @@ body {
 //TEXTE MAISON + IMAGE MAISON
 .maison-texte-image {
     display: flex;
+    flex-wrap: wrap;
     min-height: 400px;
     margin-top: 200px;
     width: 100%;
@@ -349,6 +352,7 @@ body {
 //TEXTE DEMEURE + IMAGE DEMEURE
 .demeure-texte-image {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-left: 5%;
 }
@@ -373,6 +377,7 @@ body {
 //TEXTE CHATEAU + IMAGE CHATEAU
 .chateau-texte-image {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-right: 10%;
 }
@@ -467,8 +472,10 @@ body {
 
 //FORMULAIRE
 .formulaire {
-    margin: 20px 0px 30px 110px;
-    background-color: #191919;
+    .pos-form{
+        margin: 20px 0px 30px 110px;
+        background-color: #191919;
+    }
     p {
         font-family: 'HTOWERT';
         color: white;
@@ -579,6 +586,54 @@ body {
 
     .realisation-equipe{
         
+    }
+
+    .image-plan{
+        width: 100%;
+    }
+
+    .creation{
+        width: 100%;
+    }
+
+    .construisons {
+        width: 100%;
+    }
+
+    .macon-image{
+        width: 100%;
+    }
+
+    .reve{
+        width: 100%;
+    }
+
+    .vos-reves{
+        width: 100%;
+    }
+
+    .maison-texte{
+        width: 100%;
+    }
+
+    .maison-image{
+        width: 100%;
+    }
+
+    .demeure-image{
+        width: 100%;
+    }
+
+    .demeure-texte{
+        width: 100%;
+    }
+
+    .chateau-texte{
+        width: 100%;
+    }
+
+    .chateau-image{
+        width: 100%;
     }
 
     
