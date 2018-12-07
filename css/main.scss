@@ -171,7 +171,7 @@ body {
     .arrow {
         font-size: 3em;
         text-align: center;
-        margin-top: 350px;
+        margin-top: 38%;
     }
     .fas {
         color: #FFA7A6;
@@ -579,6 +579,9 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        .arrow{
+            margin-top: 140%;
+        }
     }
 
     .equipe{

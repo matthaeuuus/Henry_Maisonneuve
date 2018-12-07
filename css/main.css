@@ -224,7 +224,7 @@ body p {
 .content-home .arrow {
   font-size: 3em;
   text-align: center;
-  margin-top: 350px;
+  margin-top: 38%;
 }
 
 .content-home .fas {
@@ -690,6 +690,9 @@ body p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .content-home .arrow {
+    margin-top: 140%;
   }
   .equipe {
     -webkit-box-orient: vertical;
