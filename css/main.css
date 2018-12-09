@@ -177,6 +177,10 @@ body p {
           flex-direction: column;
 }
 
+.menu-small {
+  display: none;
+}
+
 .header {
   width: 100%;
   background-color: #191919;
@@ -677,8 +681,16 @@ body p {
             flex-direction: column;
     width: 100%;
   }
+  .menu-small {
+    display: none;
+    position: relative;
+    z-index: 100;
+    font-size: 800%;
+    background: #191919;
+  }
   .header {
     text-align: center;
+    position: fixed;
   }
   .content-home {
     display: -webkit-box;
@@ -768,10 +780,113 @@ body p {
   .plan {
     width: 100%;
   }
+  #burger {
+    color: white;
+    display: block;
+    width: 0%;
+    position: absolute;
+    font-size: 300%;
+  }
+  .menu-small {
+    display: block;
+    width: 100%;
+  }
+  .btn1 {
+    font-size: 3em;
+    color: #FFA7A6;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .btn1:hover {
+    background-color: #FFA7A6;
+  }
+  .btn1:hover .btn1clr {
+    color: white;
+  }
+  .btn1clr {
+    color: #FFA7A6;
+  }
+  .btn2 {
+    font-size: 3em;
+    color: #AFFBFF;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .btn2:hover {
+    background-color: #AFFBFF;
+  }
+  .btn2:hover .btn2clr {
+    color: white;
+  }
+  .btn2clr {
+    color: #AFFBFF;
+  }
+  .btn3 {
+    font-size: 3em;
+    color: #CFFF99;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .btn3:hover {
+    background-color: #CFFF99;
+  }
+  .btn3:hover .btn3clr {
+    color: white;
+  }
+  .btn3clr {
+    color: #CFFF99;
+  }
+  .btn4 {
+    font-size: 3em;
+    color: #A68BE8;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .btn4:hover {
+    background-color: #A68BE8;
+  }
+  .btn4:hover .btn4clr {
+    color: white;
+  }
+  .btn4clr {
+    color: #A68BE8;
+  }
+  .btn5 {
+    font-size: 3em;
+    color: white;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .btn5clr {
+    color: white;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #burger {
+    display: none;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #burger {
+    display: none;
+  }
+}
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #burger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  #burger {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

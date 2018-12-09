@@ -1,3 +1,4 @@
+
 //Import de la police High Tower Text
 @font-face {
     font-family: 'HTOWERT';
@@ -126,6 +127,9 @@ body {
     width: 90%;
     background-color: #191919;
     flex-direction: column;
+}
+.menu-small{
+    display: none;
 }
 
 //HEADER
@@ -556,6 +560,7 @@ body {
     border-top: 2px solid white;
 }
 
+
 //MEDIA QUERIES
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width:680px) {
@@ -571,8 +576,18 @@ body {
         width: 100%;
     }
 
+    .menu-small{
+        display: none;
+        position: relative;
+        z-index: 100;
+        font-size: 800%;
+        background: #191919;
+        
+    }
+
     .header{
-        text-align: center
+        text-align: center;
+        position: fixed;
     }
 
     .content-home {
@@ -678,6 +693,86 @@ body {
     .plan{
         width: 100%;
     }
+    #burger {
+        color: white;
+        display: block;
+        width: 0%;
+        position: absolute;
+        font-size: 300%;
+    }
+    .menu-small{
+        display: block;
+        width: 100%;
+    }
+    .btn1 {
+        font-size: 3em;
+        color: #FFA7A6;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn1:hover {
+        background-color: #FFA7A6;
+        .btn1clr {
+            color: white;
+        }
+    }
+    .btn1clr {
+        color: #FFA7A6;
+    }
+    .btn2 {
+        font-size: 3em;
+        color: #AFFBFF;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn2:hover {
+        background-color: #AFFBFF;
+        .btn2clr {
+            color: white;
+        }
+    }
+    .btn2clr {
+        color: #AFFBFF;
+    }
+    .btn3 {
+        font-size: 3em;
+        color: #CFFF99;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn3:hover {
+        background-color: #CFFF99;
+        .btn3clr {
+            color: white;
+        }
+    }
+    .btn3clr {
+        color: #CFFF99;
+    }
+    .btn4 {
+        font-size: 3em;
+        color: #A68BE8;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn4:hover {
+        background-color: #A68BE8;
+        .btn4clr {
+            color: white;
+        }
+    }
+    .btn4clr {
+        color: #A68BE8;
+    }
+    .btn5 {
+        font-size: 3em;
+        color: white;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+    }
+    .btn5clr {
+        color: white;
+    }
 
     
 
@@ -692,15 +787,32 @@ body {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    #burger{
+        display: none;
+    }
 
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-
+    #burger{
+        display: none;
+    }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+
+    #burger{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 601px) {
+
+    #burger{
+        display: none;
+    }
 
 }
