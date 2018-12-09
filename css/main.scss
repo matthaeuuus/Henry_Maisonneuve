@@ -139,6 +139,7 @@ body {
     color: white;
     height: 40px;
     font-size: 13px;
+    position: fixed;
     p {
         margin-left: 5px;
         margin-top: 0;
@@ -146,6 +147,9 @@ body {
     .neuves {
         font-size: 22px;
         margin-left: 5px;
+    }
+    .menu-small{
+        display: none;
     }
 }
 
@@ -168,7 +172,7 @@ body {
     .arrow {
         font-size: 3em;
         text-align: center;
-        margin-top: 38%;
+        margin-top: 55%;
     }
     .fas {
         color: #FFA7A6;
