@@ -149,6 +149,7 @@ body {
     }
 }
 
+
 //CONTENT-HOME
 .content-home {
     height:100vh;
@@ -157,14 +158,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    h2 {
-        font-family: 'Lora', serif;
-        text-align: center;
-        margin-top: 110px;
-        color: black;
-        font-size: 3em;
-        font-weight: bold;
-    }
     .neuves-home {
         font-size: 3.5em;
         text-align: center;
@@ -180,7 +173,19 @@ body {
     .fas {
         color: #FFA7A6;
     }
+    .title{
+        text-align: center;
+        margin-top: 110px;
+        h2 {
+            font-family: 'Lora', serif;
+            color: black;
+            font-size: 3em;
+            font-weight: bold;
+        }
+    }
 }
+
+
 
 //CONTENT-ENTREPRISE
 .content-entreprise {
@@ -597,6 +602,10 @@ body {
         .arrow{
             margin-top: 140%;
         }
+        .title{
+            width: 100%;
+            text-align: center;
+        }
     }
 
     .equipe{
@@ -639,6 +648,10 @@ body {
         }
     }
 
+    .macon-construction{
+        flex-direction: column-reverse;
+    }
+
     .construisons {
         width: 100%;
         p{
@@ -659,10 +672,29 @@ body {
 
     .vos-reves{
         width: 100%;
+        p{
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: center;
+            
+        }
+    }
+
+    .maison-texte-image{
+        margin-top: 0px;
     }
 
     .maison-texte{
         width: 100%;
+        height: 50%;
+        p{
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: center;
+            
+        }
+       
+        
     }
 
     .maison-image{
@@ -671,23 +703,48 @@ body {
 
     .demeure-image{
         width: 100%;
+        margin-top: 150px;
     }
 
     .demeure-texte{
         width: 100%;
+        p{
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: center;
+            
+        }
+       
     }
 
+    .chateau-texte-image{
+        height: 100%;
+    }
     .chateau-texte{
         width: 100%;
+        p{
+            margin-top: 0px;
+            margin-left: 0px;
+            text-align: center;
+            
+        }
     }
 
     .chateau-image{
         width: 100%;
+        
     }
 
     .plan-texte{
         width:100%;
 
+    }
+
+    .building-image{
+        background: url(../img/petronas.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
     }
 
     .plan{
@@ -699,6 +756,7 @@ body {
         width: 0%;
         position: absolute;
         font-size: 300%;
+        margin-left: 5px;
     }
     .menu-small{
         display: block;
@@ -773,6 +831,7 @@ body {
     .btn5clr {
         color: white;
     }
+    
 
     
 

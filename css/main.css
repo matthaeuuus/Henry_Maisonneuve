@@ -208,15 +208,6 @@ body p {
   background-position: center;
 }
 
-.content-home h2 {
-  font-family: 'Lora', serif;
-  text-align: center;
-  margin-top: 110px;
-  color: black;
-  font-size: 3em;
-  font-weight: bold;
-}
-
 .content-home .neuves-home {
   font-size: 3.5em;
   text-align: center;
@@ -233,6 +224,18 @@ body p {
 
 .content-home .fas {
   color: #FFA7A6;
+}
+
+.content-home .title {
+  text-align: center;
+  margin-top: 110px;
+}
+
+.content-home .title h2 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 3em;
+  font-weight: bold;
 }
 
 .content-entreprise {
@@ -706,6 +709,10 @@ body p {
   .content-home .arrow {
     margin-top: 140%;
   }
+  .content-home .title {
+    width: 100%;
+    text-align: center;
+  }
   .equipe {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -739,6 +746,12 @@ body p {
   .creation p {
     margin-top: 0px;
   }
+  .macon-construction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
   .construisons {
     width: 100%;
   }
@@ -756,26 +769,60 @@ body p {
   .vos-reves {
     width: 100%;
   }
+  .vos-reves p {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .maison-texte-image {
+    margin-top: 0px;
+  }
   .maison-texte {
     width: 100%;
+    height: 50%;
+  }
+  .maison-texte p {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
   }
   .maison-image {
     width: 100%;
   }
   .demeure-image {
     width: 100%;
+    margin-top: 150px;
   }
   .demeure-texte {
     width: 100%;
   }
+  .demeure-texte p {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .chateau-texte-image {
+    height: 100%;
+  }
   .chateau-texte {
     width: 100%;
+  }
+  .chateau-texte p {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
   }
   .chateau-image {
     width: 100%;
   }
   .plan-texte {
     width: 100%;
+  }
+  .building-image {
+    background: url(../img/petronas.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
   .plan {
     width: 100%;
@@ -786,6 +833,7 @@ body p {
     width: 0%;
     position: absolute;
     font-size: 300%;
+    margin-left: 5px;
   }
   .menu-small {
     display: block;
