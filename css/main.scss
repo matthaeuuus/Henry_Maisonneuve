@@ -654,15 +654,19 @@ body {
 
     .construisons {
         width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
         p{
             margin-top: 0px;
+            margin-left: 0px;
+            text-align: center
             
         }
     }
 
     .macon-image{
         width: 100%;
-        height: 300px;
+        height: 450px;
     }
 
     .reve{
@@ -686,7 +690,7 @@ body {
 
     .maison-texte{
         width: 100%;
-        height: 50%;
+        height: 40%;
         p{
             margin-top: 0px;
             margin-left: 0px;
@@ -699,6 +703,8 @@ body {
 
     .maison-image{
         width: 100%;
+        margin-left: 28px;
+        text-align:unset;
     }
 
     .demeure-image{
@@ -748,7 +754,19 @@ body {
     }
 
     .plan{
-        width: 100%;
+        width: 80%;
+        margin: auto;
+    }
+
+    .formulaire{
+        margin-top: 75%;
+    }
+
+    .pos-form{
+        margin-bottom: 15px;
+        margin-left: 30px;
+    }
+
     }
     #burger {
         color: white;
@@ -837,7 +855,7 @@ body {
 
 
     //
-}
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 680px) {
